@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1050px) {
+
+
+    .fac {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+
+    .body::before {
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 571px) {
+
+    .body::before {
+        height: 100%;
+    }
+    .body {
+        height: 100%;
+    }
+
+}
